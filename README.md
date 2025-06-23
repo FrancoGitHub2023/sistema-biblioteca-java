@@ -1,4 +1,4 @@
-Sistema di Gestione Biblioteca:
+Sistema di Gestione Biblioteca
 Questo progetto implementa un sistema di gestione per una biblioteca, che permette di catalogare, organizzare e cercare vari tipi di media (libri, riviste, DVD). 
 Il sistema è stato sviluppato seguendo le best practice di programmazione orientata agli oggetti, con particolare attenzione all'uso di design pattern, gestione delle eccezioni, e tecnologie core di Java.
 
