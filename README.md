@@ -306,4 +306,4 @@ Anno Accademico: 2024/2025
 Progetto didattico - Uso educativo
 
 ---
-⭐ **Se questo progetto ti è utile per studiare i Design Patterns, lascia una stella!**
+
