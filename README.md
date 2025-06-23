@@ -2,7 +2,7 @@
 
 Questo progetto implementa un sistema di gestione per una biblioteca, che permette di catalogare, organizzare e cercare vari tipi di media (libri, riviste, DVD). Il sistema è stato sviluppato seguendo le best practice di programmazione orientata agli oggetti, con particolare attenzione all'uso di design pattern, gestione delle eccezioni, e tecnologie core di Java.
 
-## 🎯 Panoramica delle Funzionalità
+## Panoramica delle Funzionalità
 
 Il sistema permette di:
 
@@ -12,7 +12,7 @@ Il sistema permette di:
 - **Salvare e caricare il catalogo** da file
 - **Logging delle operazioni** per tracciare l'utilizzo del sistema
 
-## 🏗️ Tecnologie e Pattern Utilizzati
+## Tecnologie e Pattern Utilizzati
 
 ### Design Pattern
 
@@ -21,45 +21,45 @@ Il sistema permette di:
    - Permette la creazione di vari tipi di media (libri, riviste, DVD, collezioni)
    - **Giustificazione**: Separa la creazione degli oggetti dal loro uso, semplificando l'aggiunta di nuovi tipi di media in futuro
 
-2. **🌳 Composite Pattern**
+2. ** Composite Pattern**
    - Implementato tramite l'interfaccia `LibraryItem` e le classi concrete (`Book`, `Magazine`, `DVD`, `Collection`)
    - Permette di trattare singoli oggetti e composizioni di oggetti in modo uniforme
    - **Giustificazione**: Ideale per rappresentare la struttura gerarchica di una biblioteca, dove collezioni possono contenere sia elementi singoli che altre collezioni
 
-3. **🔄 Iterator Pattern**
+3. ** Iterator Pattern**
    - Implementato tramite l'interfaccia `LibraryIterator` e la classe `CollectionIterator`
    - Fornisce un modo per attraversare la struttura della biblioteca senza esporne la rappresentazione interna
    - **Giustificazione**: Consente di iterare sulla collezione in modo standardizzato
 
-4. **🛡️ Exception Shielding**
+4. ** Exception Shielding**
    - Implementato tramite la classe `LibraryException`
    - Incapsula le eccezioni interne esponendo solo informazioni appropriate
    - **Giustificazione**: Migliora la sicurezza nascondendo dettagli implementativi interni nelle eccezioni
 
-5. **👁️ Visitor Pattern**
+5. ** Visitor Pattern**
    - Implementato tramite l'interfaccia `LibraryVisitor` e la classe `SearchVisitor`
    - Separa gli algoritmi dalla struttura degli oggetti su cui operano
    - **Giustificazione**: Permette di aggiungere nuove operazioni sulla struttura senza modificarla
 
 ### Tecnologie Core di Java
 
-1. **📦 Collections Framework**
+1. ** Collections Framework**
    - Uso di `ArrayList` e altre collezioni per gestire gli elementi della biblioteca
    - **Giustificazione**: Fornisce strutture dati efficienti e thread-safe
 
-2. **🔒 Generics**
+2. ** Generics**
    - Implementati nelle collezioni e negli iteratori
    - **Giustificazione**: Garantisce type-safety e riduce il casting esplicito
 
-3. **💾 Java I/O**
+3. ** Java I/O**
    - Implementato nella classe `LibraryStorage` per salvare e caricare il catalogo
    - **Giustificazione**: Permette la persistenza dei dati su file
 
-4. **📝 Logging**
+4. ** Logging**
    - Uso di `java.util.logging` per tracciare operazioni e errori
    - **Giustificazione**: Facilita il debugging e il monitoraggio del sistema
 
-5. **🧪 JUnit Testing**
+5. ** JUnit Testing**
    - Test unitari per tutte le classi principali
    - **Giustificazione**: Assicura la qualità e la correttezza dell'implementazione
 
@@ -98,7 +98,7 @@ src/library/
 └── LibraryException.java           ⚠️ Exception Shielding
 ```
 
-## 🚀 Istruzioni di Setup ed Esecuzione
+## Istruzioni di Setup ed Esecuzione
 
 ### Prerequisiti
 - Java Development Kit (JDK) 11 o superiore
@@ -116,7 +116,7 @@ src/library/
 1. Esegui la classe `Main` dal package `library` per avviare l'applicazione
 2. Per eseguire i test JUnit, esegui le classi di test dal tuo IDE
 
-## 🎮 Menu dell'Applicazione
+## Menu dell'Applicazione
 
 ```
 ===== BIBLIOTECA SYSTEM =====
@@ -297,12 +297,12 @@ classDiagram
 - Implementare gestione completa collezioni nel menu
 - Aggiungere funzionalità di prestito e restituzione
 
-## 👨‍💻 Autore
+## Autore
 **Francesco Di Monda**  
 Corso Epicode: Programmazione Orientata agli Oggetti  
 Anno Accademico: 2024/2025
 
-## 📜 Licenza
+## Licenza
 Progetto didattico - Uso educativo
 
 ---
