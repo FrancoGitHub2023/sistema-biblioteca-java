@@ -120,16 +120,16 @@ src/library/
 
 ```
 ===== BIBLIOTECA SYSTEM =====
-1. Display Catalog (Composite Pattern)
-2. Search Items (Visitor Pattern)
-3. Add New Book (Factory Pattern)
-4. Add New Magazine (Factory Pattern)
-5. Add New DVD (Factory Pattern)
-6. Create New Collection (Composite)
-7. Save Catalog (Java I/O + Exception Shielding)
-8. Load Catalog (Java I/O + Exception Shielding)
-9. Demonstrate Iterator Pattern
-0. Exit
+1. Visualizza catalogo (Composite Pattern)
+2. Cerca elementi (Visitor Pattern)
+3. Aggiungi nuovo libro (Factory Pattern)
+4. Aggiungi nuova rivista (Factory Pattern)
+5. Aggiungi nuovo DVD (Factory Pattern)
+6. Crea nuova collezione (Composite)
+7. Salva catalogo (Java I/O + Exception Shielding)
+8. Carica catalogo (Java I/O + Exception Shielding)
+9. Dimostrazione del Iterator pattern
+0. Esci
 ```
 
 ## 📊 Diagramma UML delle Classi
